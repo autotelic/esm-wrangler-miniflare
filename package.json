@@ -6,7 +6,8 @@
   "main": "./dist/index.js",
   "scripts": {
     "build": "esbuild --format=esm --bundle --sourcemap --outdir=dist ./src/index.js",
-    "dev": "wrangler dev"
+    "wrangler": "wrangler dev",
+    "miniflare": "miniflare"
   },
   "keywords": [],
   "author": "",
