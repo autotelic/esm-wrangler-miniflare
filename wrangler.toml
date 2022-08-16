@@ -1,0 +1,11 @@
+name = "esm-ava-miniflare"
+workers_dev = true
+main = "./dist/index.js"
+compatibility_date = "2022-08-16"
+
+[build]
+command = "npm run build"
+
+[[rules]]
+type = "ESModule"
+globs = ["**/*.js"]

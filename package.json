@@ -1,0 +1,19 @@
+{
+  "name": "esm-wrangler-miniflare",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "esbuild --format=esm --bundle --sourcemap --outdir=dist ./src/index.js",
+    "dev": "wrangler dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.15.4",
+    "miniflare": "^2.6.0",
+    "wrangler": "^2.0.26"
+  }
+}
