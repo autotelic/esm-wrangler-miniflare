@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "./dist/index.js",
+  "module": "./dist/index.js",
   "scripts": {
     "build": "esbuild --format=esm --bundle --sourcemap --outdir=dist ./src/index.js",
     "wrangler": "wrangler dev",
-    "miniflare": "miniflare"
+    "miniflare": "miniflare --modules"
   },
   "keywords": [],
   "author": "",
